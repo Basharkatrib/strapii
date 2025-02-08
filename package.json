@@ -6,8 +6,8 @@
   "scripts": {
     "build": "strapi build",
     "deploy": "strapi deploy",
-    "develop": "cross-env PORT=$PORT strapi develop",
-    "start": "strapi start",
+    "develop": "cross-env PORT=1337 strapi develop",
+    "start": "cross-env PORT=1337 strapi start",
     "strapi": "strapi"
   },
   "dependencies": {
